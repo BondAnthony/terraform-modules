@@ -18,3 +18,12 @@ variable "mtu" {
   description = "Maximum Transmission Unit in bytes. The default value is 1460 bytes."
   default     = 1460
 }
+
+variable "routing_mode" {
+  type        = string
+  description = "The network-wide routing mode to use.Possible values are: REGIONAL, GLOBAL."
+  validation {
+    condition     = contains(["REGIONAL", "GLOBAL"], var.routing_mode)
+    error_message = "The var: routing_mode must be one of: REGIONAL, GLOBAL."
+  }
+}
