@@ -1,0 +1,12 @@
+{
+  "separate-pull-requests": true,
+  "draft": false,
+  "packages": {
+    "aws/vpc": {
+      "release-type": "terraform-module"
+    },
+    "gcp/vpc": {
+      "release-type": "terraform-module"
+    }
+  }
+}
