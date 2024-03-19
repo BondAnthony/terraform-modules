@@ -12,3 +12,9 @@ variable "auto_create_subnetworks" {
   description = "When set to true, the network is created in auto subnet mode and it will create a subnet for each region automatically across the 10.128.0.0/9 address range."
   default     = false
 }
+
+variable "mtu" {
+  type        = number
+  description = "Maximum Transmission Unit in bytes. The default value is 1460 bytes."
+  default     = 1460
+}
