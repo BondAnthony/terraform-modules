@@ -15,7 +15,7 @@ variable "auto_create_subnetworks" {
 
 variable "mtu" {
   type        = number
-  description = "Maximum Transmission Unit in bytes. The default value is 1460 bytes."
+  description = "Maximum Transmission Unit in bytes, default value is 1460 bytes."
   default     = 1460
 }
 
