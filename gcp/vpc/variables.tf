@@ -2,7 +2,7 @@ variable "name" {
   type        = string
   description = "Name of the compute network to create"
   validation {
-    condition     = can("[a-z]([-a-z0-9]*[a-z0-9])?", var.name)
+    condition     = can(regex("[a-z]([-a-z0-9]*[a-z0-9])?", var.name))
     error_message = "The name must be 1-63 characters long, and comply with RFC1035."
   }
 }
