@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/BondAnthony/terraform-modules/compare/gcp.vpc-v0.1.0...gcp.vpc-v0.1.1) (2024-03-20)
+
+
+### Bug Fixes
+
+* **vpc:** update validation for vpc name ([3c6828b](https://github.com/BondAnthony/terraform-modules/commit/3c6828bab0fc66ece1aa704b1689250bd62b7621))
+
 ## 0.1.0 (2024-03-20)
 
 
