@@ -4,11 +4,11 @@
   "packages": {
     "aws/vpc": {
       "release-type": "terraform-module",
-      "package-name": "aws/vpc"
+      "package-name": "aws.vpc"
     },
     "gcp/vpc": {
       "release-type": "terraform-module",
-      "package-name": "gcp/vpc"
+      "package-name": "gcp.vpc"
     }
   }
 }
